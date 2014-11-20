@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>佛山地铁自助售票机</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="Cache-Control" content="no-siteapp"/>
+	<link rel="stylesheet" href="assets/css/amazeui.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<style>
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="title">佛山地铁自助售票机</div>
+
+		<img class="am-img-thumbnail" src="image/1368005851621.jpg">
+
+		<div class="location">您现在的位置：<a href="http://baike.baidu.com/view/9076592.htm">西朗</a></div>
+
+		<div class="am-g am-container">
+			<div class="col-sm-12 col-md-5 col-lg-6">
+				<div class="box">请选择您的目的地：</div>
+			</div>
+			<div class="col-sm-12 col-md-7 col-lg-6">
+
+
+				<form class="am-form">
+					<fieldset>
+
+						<div class="am-form-group">
+							<select id="youroption">
+								<option value="0">未选择</option>
+								<option value="1">龙溪</option>
+								<option value="2">菊树</option>
+								<option value="3">金融高新区</option>
+								<option value="4">千灯湖</option>
+								<option value="5">𧒽岗</option>
+								<option value="6">南桂路</option>
+								<option value="7">桂城</option>
+							</select>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+			<!-- select end -->
+		</div>
+
+		<div class="am-g am-container">
+			<div class="col-sm-12 col-md-5 col-lg-6">
+				<div class="box">请选择要投入的钱币：</div>
+			</div>
+			<div class="col-sm-12 col-md-7 col-lg-6">
+				<div class="am-btn-group" data-am-button>
+					<label class="am-btn am-btn-secondary" id="fiveyuan">
+						<input id="5" name="money" type="radio">五元
+					</label>
+					<label class="am-btn am-btn-success" id="tenyuan">
+						<input id="10" name="money" type="radio">十元
+					</label>
+					<label class="am-btn am-btn-warning" id="twentyyuan">
+						<input id="20" name="money" type="radio">二十元
+					</label>
+					<label class="am-btn am-btn-danger" id="fiftyyuan">
+						<input id="50" name="money" type="radio">五十元
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<!-- am-container end -->
+		<div class="am-container">
+			<button type="button" id="submittonext" class="am-btn am-btn-primary nextmove">下一步：出票</button>
+		</div>
+	</div>
+
+
+<footer class="footer">
+  <p>© 2014 Arted by <a href="http://xduclasshelper.sinaapp.com/other/aboutMe/">Jayus</a></p>
+</footer>
+	<script src="assets/js/zepto.min.js"></script>
+	<script src="assets/js/amazeui.min.js"></script>
+	<script type="text/javascript" src="js/mainScript.js"></script>
+</body>
+</html>
